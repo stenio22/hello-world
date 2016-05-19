@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(){
+
+  //Criando Uma soma de Valores usando C
+  
+  
+  int num1;
+  int num2;
+  float resultado = 0;
+  
+  
+  printf("Digite o Primeiro Numero Inteiro \n");
+  scanf("%d", &num1);
+  
+  
+  printf("Digite o Segundo Numero Inteiro \n");
+  scanf("%d", &num2);
+  
+  resultado = (num1 + num2);
+  
+  printf("Resultado é: %.2f \n", resultado);
+  
+  //outra forma de somar direto no printf
+  printf("O Resultado eh: %d", (num1 + num2));
+
+
+}
